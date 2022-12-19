@@ -1,0 +1,11 @@
+{
+  "name": "ts-in-theme-repro",
+  "private": true,
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn workspace example build"
+  },
+  "workspaces": ["example-site", "source-plugin-ts", "source-plugin-js"]
+}
